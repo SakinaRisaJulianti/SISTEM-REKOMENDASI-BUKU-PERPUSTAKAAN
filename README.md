@@ -1,4 +1,4 @@
-# SISTEM-REKOMENDASI-BUKU-PERPUSTAKAAN
+# STUDI KASUS 3 - SISTEM REKOMENDASI BUKU PERPUSTAKAAN
 Tugas UTS Project Pemrograman
 ## Kelompok 3
 Nama Anggota Kelompok
@@ -12,7 +12,8 @@ Program ini dibuat untuk membantu pengguna perpustakaan menemukan buku sesuai de
 Selain itu, sistem ini juga menyediakan fitur untuk menambah data buku baru dan mengurangi stok ketika buku dipinjam. Proses rekomendasi dilakukan dengan menggunakan perulangan dan percabangan (looping dan if–else) agar buku yang ditampilkan benar-benar sesuai dengan kategori pilihan pengguna.
 Melalui sistem ini, pencarian buku di perpustakaan menjadi lebih cepat dan efisien. Pengguna tidak perlu lagi mencari satu per satu di katalog karena sistem akan langsung memberikan saran buku yang relevan. Dengan begitu, kegiatan peminjaman buku menjadi lebih praktis dan pengalaman pengguna di perpustakaan menjadi lebih baik.
 
-## Sistem Program
+## 
+## Kode Sistem Program
 ### 1. Buku Class
 ```java
 public class Buku {
@@ -85,15 +86,16 @@ public class Buku {
 ### 2. Perpustakaan Class
  ```java
  import java.util.ArrayList;
+
 public class Perpustakaan {
     private ArrayList<Buku> daftarBuku = new ArrayList<>();
 
-    // Menambahkan buku ke daftar
+//  Menambahkan buku ke dalam daftar
     public void tambahBuku(Buku b) {
         daftarBuku.add(b);
     }
 
-    // Menampilkan seluruh buku
+//  Menampilkan semua buku yang ada di dalam perpustakaan
     public void tampilkanBuku() {
         System.out.println("=== Daftar Buku di Perpustakaan ===");
         for (Buku b : daftarBuku) {
@@ -101,7 +103,7 @@ public class Perpustakaan {
         }
     }
 
-    // Menampilkan rekomendasi buku berdasarkan kategori
+//  Memberikan rekomendasi buku berdasarkan kategori
     public void rekomendasiBuku(String kategori) {
         System.out.println("=== Rekomendasi Buku Kategori: " + kategori + " ===");
         boolean ditemukan = false;
@@ -116,7 +118,7 @@ public class Perpustakaan {
         }
     }
 
-    // Mengurangi stok buku berdasarkan judul
+//  Mengurangi stok buku berdasarkan judul
     public void kurangiStok(String judul) {
         for (Buku b : daftarBuku) {
             if (b.getJudul().equalsIgnoreCase(judul)) {
@@ -132,6 +134,7 @@ public class Perpustakaan {
 ### 3. Main Class
  ```java  
 import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -155,7 +158,7 @@ public class Main {
         perpus.rekomendasiBuku(kategori);
 
         // Simulasi peminjaman buku
-        System.out.print("\nMasukkan judul buku yang ingin dipinjam: ");
+        System.out.print("\nJudul buku yang ingin dipinjam: ");
         String judul = input.nextLine();
         perpus.kurangiStok(judul);
 
