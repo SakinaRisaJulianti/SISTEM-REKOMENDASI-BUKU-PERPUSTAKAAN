@@ -1,2 +1,8 @@
 # SISTEM-REKOMENDASI-BUKU-PERPUSTAKAAN
-Anggota Kelompok 3 
+Kelompok 3
+• Item pertama
+• Item kedua
+• Item ketiga
+
+
+
