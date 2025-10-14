@@ -1,6 +1,8 @@
 # STUDI KASUS 3 - SISTEM REKOMENDASI BUKU PERPUSTAKAAN
 Tugas UTS Project Pemrograman
 ## Kelompok 3
+Kelas: A INFORMATIKA
+
 Nama Anggota Kelompok
 - **Sakina Risa Julianti** (G1A025069)
 - **Rafif Naufal Hibatullah** (G1A025079)
@@ -13,9 +15,9 @@ Selain itu, sistem ini juga menyediakan fitur untuk menambah data buku baru dan 
 Melalui sistem ini, pencarian buku di perpustakaan menjadi lebih cepat dan efisien. Pengguna tidak perlu lagi mencari satu per satu di katalog karena sistem akan langsung memberikan saran buku yang relevan. Dengan begitu, kegiatan peminjaman buku menjadi lebih praktis dan pengalaman pengguna di perpustakaan menjadi lebih baik.
 
 ## Struktur Program
-### 1. Class Buku
-### 2. Class Perpustakaan
-### 3. Class Main
+1. Class Buku
+2. Class Perpustakaan
+3. Class Main
 ## Kode Sistem Program
 ### 1. Buku Class
 ```java
