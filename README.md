@@ -82,7 +82,7 @@ public class Buku {
 }
 ```
 
-2. Perpustakaan Class
+### 2. Perpustakaan Class
  ```java
  import java.util.ArrayList;
 public class Perpustakaan {
@@ -129,7 +129,7 @@ public class Perpustakaan {
     }
 }
 ```
-3. Main Class
+### 3. Main Class
  ```java  
 import java.util.Scanner;
 public class Main {
