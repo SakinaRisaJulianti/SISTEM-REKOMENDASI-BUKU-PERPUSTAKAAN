@@ -12,7 +12,10 @@ Program ini dibuat untuk membantu pengguna perpustakaan menemukan buku sesuai de
 Selain itu, sistem ini juga menyediakan fitur untuk menambah data buku baru dan mengurangi stok ketika buku dipinjam. Proses rekomendasi dilakukan dengan menggunakan perulangan dan percabangan (looping dan if–else) agar buku yang ditampilkan benar-benar sesuai dengan kategori pilihan pengguna.
 Melalui sistem ini, pencarian buku di perpustakaan menjadi lebih cepat dan efisien. Pengguna tidak perlu lagi mencari satu per satu di katalog karena sistem akan langsung memberikan saran buku yang relevan. Dengan begitu, kegiatan peminjaman buku menjadi lebih praktis dan pengalaman pengguna di perpustakaan menjadi lebih baik.
 
-## 
+## Struktur Program
+### 1. Class Buku
+### 2. Class Perpustakaan
+### 3. Class Main
 ## Kode Sistem Program
 ### 1. Buku Class
 ```java
