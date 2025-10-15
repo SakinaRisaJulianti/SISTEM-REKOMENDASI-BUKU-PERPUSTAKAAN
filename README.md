@@ -20,6 +20,14 @@ Melalui sistem ini, pencarian buku di perpustakaan menjadi lebih cepat dan efisi
 3. Class Main
 ## Penjelasan Singkat Sistem Program
 ### 1. Buku Class
+Class Buku berfungsi sebagai template atau blueprint untuk membuat objek-objek buku dalam sistem perpustakaan. Setiap objek buku yang dibuat dari class ini akan memiliki identitas lengkap yang terdiri dari judul, penulis, kategori, dan jumlah stok yang tersedia.
+
+### 2. Perpustakaan Class
+Class Perpustakaan bertindak sebagai administrator yang mengelola semua buku dalam daftar dan menyediakan fitur rekomendasi berdasarkan kategori favorit pengguna serta sistem peminjaman buku.
+
+### 3. Main Class
+Class Main berfungsi sebagai antarmuka atau menu utama yang memungkinkan pengguna berinteraksi langsung dengan sistem perpustakaan. Melalui class ini, pengguna dapat melihat semua buku yang tersedia, mendapatkan saran buku sesuai minatnya (misalnya kategori pendidikan atau fiksi), dan melakukan peminjaman buku dengan sistem yang secara otomatis mengurangi stok buku yang dipinjam.
+
 
    
    
